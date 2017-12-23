@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>bea06f00-63f5-41af-a63b-37e8f4830994</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="..\..\CppWINRT\CppWINRT\run.cpp" />
+    <ClCompile Include="..\..\CppWINRT\CppWINRT\CppWINRT.cpp" />
+    <ClCompile Include="..\..\CppWINRT\CppWINRT\err.cpp" />
+    <ClCompile Include="..\..\CppWINRT\CppWINRT\gram.cpp" />
+    <ClCompile Include="..\..\CppWINRT\CppWINRT\lex.cpp" />
+    <ClCompile Include="..\..\CppWINRT\CppWINRT\main.cpp" />
+    <ClCompile Include="..\..\CppWINRT\CppWINRT\pch.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="..\..\CppWINRT\CppWINRT\ytab.h" />
+    <ClInclude Include="..\..\CppWINRT\CppWINRT\CppWINRT.h" />
+    <ClInclude Include="..\..\CppWINRT\CppWINRT\nodo.h" />
+    <ClInclude Include="..\..\CppWINRT\CppWINRT\pch.h" />
+  </ItemGroup>
+</Project>
