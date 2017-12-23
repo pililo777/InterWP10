@@ -44,8 +44,14 @@ namespace App1 {
                     //To read
                     using (StreamReader r = new StreamReader(f.OpenFile(myFileName, FileMode.Open)))
                     {
-                        string text = r.ReadToEnd();
-                        txtBlockAnswer.Text = text;
+                        try
+                        {
+                            string text = r.ReadToEnd();
+                            txtBlockAnswer.Text = text;
+                        }
+                        catch (Exception e) {
+                            throw e;
+                        }
 
                     }
                 }

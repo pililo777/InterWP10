@@ -255,8 +255,10 @@ void clase1::liberar_nodo( elnodo * p, int n)
 					   i++;
 				}
 			} 
-			else
+			else {
 				fprintf(fichero, "imposible abrir fichero.\n");
+				break;
+			}
 		} while    (i != argc) ; //  (i != argc);  //   // ; para depurar:  (i==1); modificar abajo tambien(run)
 
 		//ejecuciona los programas de la pila.
