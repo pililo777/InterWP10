@@ -1,2 +1,47 @@
-        imprimir 'hola'
+        imprimir 'demostracion de un lenguaje de programacion para moviles'
+        imprimir 'en este programa'
+        imprimir 'intentamos hallar la raiz cuadrada'
+        imprimir 'del numero 23'
 
+        numero =  23
+		
+		divisor = 1
+		
+		dividendo = 0
+		dividendo = numero / divisor
+		imprimir 'dividendo = ', dividendo
+		decimales 10
+		siguecalculando = 1
+		diferencia =  0.0000000001
+
+		mientras siguecalculando > 0
+		haz
+
+			  si  dividendo = divisor entonces
+
+				  imprimir 'la raiz cuadrada es: ', dividendo
+				  siguecalculando = 0
+			   
+			  sino
+
+				 dividendo = ( divisor + dividendo ) / 2
+				 divisor   = ( numero / dividendo )
+			
+				 imprimir 'aproximacion: ', dividendo, ' ---- ',  divisor
+				
+				 diferencia2 = dividendo - divisor
+			  
+					si diferencia2 < 0 entonces
+							diferencia2 = diferencia2 * (-1)
+					si-fin
+		 
+					si diferencia2 < diferencia entonces
+						imprimir 'la raiz cuadrada es: ', dividendo
+						siguecalculando = 0
+						//salir
+					si-fin
+
+				si-fin
+		fin-haz
+			
+		imprimir 'hemos finalizado el programa '

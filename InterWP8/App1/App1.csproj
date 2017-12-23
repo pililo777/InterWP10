@@ -130,6 +130,12 @@
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CppWinRT\CppWinRT.vcxproj">
+      <Project>{723f0285-5aba-4fe1-a65a-cefee3f86ce6}</Project>
+      <Name>CppWinRT</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
